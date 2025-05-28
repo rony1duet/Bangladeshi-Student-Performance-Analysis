@@ -1,421 +1,492 @@
+<div align="center">
+
 # 🎓 Bangladeshi Student Performance Analysis
 
-> **Unlocking Educational Excellence Through Data Science**
+### *Unlocking Educational Excellence Through Data Science*
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistics-purple?style=for-the-badge&logo=seaborn&logoColor=white)
+<img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Matplotlib-Visualization-red?style=for-the-badge&logo=matplotlib&logoColor=white" />
+<img src="https://img.shields.io/badge/Seaborn-Statistics-purple?style=for-the-badge&logo=seaborn&logoColor=white" />
 
-![Status](https://img.shields.io/badge/Status-✅%20Completed-success?style=flat-square)
-![License](https://img.shields.io/badge/License-🎓%20Academic%20Use-informational?style=flat-square)
-![Dataset](https://img.shields.io/badge/Dataset-8,612%20Students-ff6b35?style=flat-square)
+<img src="https://img.shields.io/badge/Status-✅%20Completed-success?style=flat-square" />
+<img src="https://img.shields.io/badge/License-🎓%20Academic%20Use-informational?style=flat-square" />
+<img src="https://img.shields.io/badge/Dataset-8,612%20Students-ff6b35?style=flat-square" />
+
+---
 
 **🏛️ Dhaka University of Engineering & Technology (DUET) | CSE 2110 - Advanced Programming Sessional**
 
 *A comprehensive data-driven exploration of educational factors influencing academic success in Bangladesh*
 
-📊 [**View Analysis**](main.ipynb) • 📁 [**Repository**](https://github.com/rony1duet/Bangladeshi-Student-Performance-Analysis) • 📋 [**Documentation**](Report/Technical_Documentation.pdf)
+[📊 **View Analysis**](main.ipynb) • [📁 **Repository**](https://github.com/rony1duet/Bangladeshi-Student-Performance-Analysis) • [📋 **Documentation**](Report/Technical_Documentation.pdf)
+
+</div>
+
+### CSE 2110 - Advanced Programming Sessional | Group 16
+
+### Dhaka University of Engineering & Technology (DUET), Gazipur
+
+> A comprehensive analytical platform exploring factors influencing academic performance among Bangladeshi students
+
+**Repository**: [GitHub - Bangladeshi Student Performance Analysis](https://github.com/rony1duet/Bangladeshi-Student-Performance-Analysis)
 
 ---
 
-## 🌟 Project Overview
+### Research Team
 
-This project explores the critical factors influencing academic performance among **8,612 Bangladeshi students** through comprehensive data analysis. Using Python and advanced data analysis tools, we investigate the effects of internet access, extracurricular activities, demographics, and socioeconomic factors on student outcomes.
+| Name | Student ID | Role | Email |
+|------|------------|------|-------|
+| Mohatamim Haque | 2204044 | Data Cleaning & Preprocessing | 2204044@student.duet.ac.bd |
+| Md Rony Hossen | 2204045 | Architecture Design, Integration & Documentation | 2204045@student.duet.ac.bd |
+| Raju Mia | 2204046 | Relationship Finding & Analysis | 2204046@student.duet.ac.bd |
 
-### 🎯 Key Research Questions
-
-- 🌐 How does the **digital divide** impact academic performance?
-- 📍 What role does **geographic location** play in educational outcomes?
-- 👥 How do **demographic factors** influence student success?
-- 🏫 What is the impact of **school types** and **support systems**?
-
----
-
-## 👥 Research Team
-
-| 👤 Team Member | 🆔 Student ID | 🎯 Role | 📧 Contact |
-|-----------------|---------------|---------|------------|
-| **Mohatamim Haque** | 2204044 | Data Cleaning & Preprocessing | 2204044@student.duet.ac.bd |
-| **Md Rony Hossen** | 2204045 | Architecture Design & Documentation | 2204045@student.duet.ac.bd |
-| **Raju Mia** | 2204046 | Relationship Finding & Analysis | 2204046@student.duet.ac.bd |
-
-### 🎓 Academic Supervision
+### Academic Supervisors
 
 - **Dr. Md. Shafiqul Islam** - Primary Supervisor
 - **Md. Rajibul Islam** - Co-Supervisor
 
-*Department of Computer Science & Engineering*  
-*Dhaka University of Engineering & Technology (DUET), Gazipur*
+### Institution
+
+**Dhaka University of Engineering & Technology (DUET)**  
+Department of Computer Science & Engineering  
+Gazipur, Bangladesh
+
+### Project Timeline
+
+- **Course**: CSE 2110 – Advanced Programming Sessional
+- **Academic Year**: 2024-2025
+- **Completion Date**: January 15, 2025
 
 ---
 
-## 🚀 Quick Start
+## Abstract
 
-### 📋 Prerequisites
+This project explores the critical factors influencing academic performance among Bangladeshi students through comprehensive data analysis. Using Python and advanced data analysis tools, we investigate the effects of internet access, extracurricular activities, demographics, and socioeconomic factors on student outcomes. Our research aims to provide actionable insights that can guide educators and policymakers in developing more effective educational strategies while simultaneously enhancing our technical and analytical skills in data science.
 
-```bash
-Python 3.8+
-pandas >= 1.3.0
-numpy >= 1.21.0
-matplotlib >= 3.4.0
-seaborn >= 0.11.0
-jupyter >= 1.0.0
+## Introduction
+
+Education serves as the cornerstone of societal progress and individual development. This project, "Analysis of the Performance of Bangladeshi Students," undertakes a thorough investigation of the multifaceted factors that influence academic success, including internet accessibility, geographic location, parental involvement, and socioeconomic background.
+
+Through meticulous analysis of a comprehensive dataset containing **8,612 student records**, we aim to identify significant trends and patterns that affect educational outcomes in Bangladesh. This research initiative transcends traditional academic boundaries, offering practical insights that can contribute to improved educational policies and student success strategies.
+
+Our study represents not only an academic endeavor but also a meaningful contribution to understanding the educational landscape of Bangladesh, with potential applications for educational reform and policy development.
+
+## Research Objectives
+
+### Primary Research Goals
+
+Our comprehensive analysis focuses on the following key objectives:
+
+- **Digital Divide Assessment**: Investigate how internet usage impacts academic performance in urban versus rural areas, examining the role of technology in educational equity.
+
+- **Demographic Performance Analysis**: Compare academic achievement across different subjects and demographic groups, identifying patterns in educational outcomes.
+
+- **Age and Gender Impact Study**: Analyze the relationships between age, gender, and academic achievements to understand developmental and social factors in education.
+
+- **Geographic and Infrastructure Analysis**: Explore connections between location, internet access, study time, and tutoring availability on student performance.
+
+- **Extracurricular Activity Assessment**: Evaluate the influence of extracurricular activities on academic performance and overall student development.
+
+- **Actionable Insight Generation**: Provide evidence-based recommendations to address educational challenges and improve learning outcomes.
+
+### Learning Outcomes Achieved
+
+Through this project, our team has successfully accomplished the following learning objectives:
+
+- **Advanced Data Science Proficiency**: Mastered Python data analysis ecosystem including pandas, numpy, matplotlib, and seaborn
+
+- **Statistical Analysis Expertise**: Implemented comprehensive correlation studies and demographic comparisons
+
+- **Visualization Excellence**: Created publication-ready charts, interactive dashboards, and meaningful data representations
+
+- **Research Methodology Application**: Applied systematic analytical approaches to educational data research
+
+- **Technical Integration Skills**: Developed modular, scalable analytics architecture with user-friendly interfaces
+
+- **Critical Thinking Development**: Enhanced ability to interpret complex data patterns and derive meaningful insights
+
+## Methodology
+
+### Data Overview
+
+Our research is built upon a comprehensive dataset containing detailed information about **8,612 Bangladeshi students**. The dataset encompasses multiple dimensions of student life and academic performance:
+
+**Personal Demographics:**
+
+- Age (ranging from 10-24 years)
+- Gender (Male/Female)
+- Location (Urban/Rural/City)
+- Family Size and Structure
+
+**Academic Performance Metrics:**
+
+- Core Subjects: English, Mathematics, Science, Social Science
+- Specialized Subjects: ICT (Information and Communication Technology), Finance
+- Performance Scale: 0-100 for each subject
+
+**Educational Context:**
+
+- School Type (Government/Private/Semi-Government)
+- Student Academic Group (Science/Commerce/Humanities)
+- Guardian Type and Involvement
+
+**Support Systems and Resources:**
+
+- Internet Access Availability
+- Private Tutoring Participation
+- Parental Involvement Level
+- Study Time Allocation
+
+**Engagement and Lifestyle Factors:**
+
+- Class Attendance Records
+- Extracurricular Activity Participation
+- Study Habits and Time Management
+
+### Data Preparation and Cleaning
+
+Our data preparation process involved rigorous quality assurance measures:
+
+- **Missing Data Handling**: Systematic identification and appropriate treatment of missing or inconsistent values
+
+- **Data Standardization**: Ensuring consistent formatting for categorical variables such as internet access, gender, and location
+
+- **Validation Checks**: Implementing comprehensive data integrity checks to verify logical consistency
+
+- **Outlier Analysis**: Statistical examination of extreme values to ensure data reliability
+
+### Technical Tools and Libraries
+
+**Core Python Libraries:**
+
+- **pandas**: Advanced data manipulation and analysis
+- **numpy**: Numerical computing and statistical calculations  
+- **matplotlib**: Comprehensive data visualization and plotting
+- **seaborn**: Statistical data visualization and advanced graphics
+- **jupyter**: Interactive development environment for analysis
+
+### Analytical Techniques
+
+Our methodology employs multiple analytical approaches:
+
+- **Descriptive Statistics**: Comprehensive summary statistics for all variables
+
+- **Comparative Analysis**: Performance comparisons across demographic groups
+
+- **Correlation Analysis**: Identification of relationships between variables
+
+- **Data Grouping**: Strategic segmentation based on key attributes (internet access, location, student groups)
+
+- **Visualization Techniques**: Multi-format chart generation including bar graphs, pie charts, and correlation heatmaps
+
+- **Interactive Analysis**: Menu-driven system for dynamic data exploration
+
+### Analysis Workflow
+
+```text
+Data Loading → Data Cleaning → Exploratory Analysis → Statistical Testing → Visualization → Interpretation → Reporting
 ```
 
-### ⚡ Installation
+This systematic approach ensures comprehensive coverage of all research objectives while maintaining analytical rigor and reproducibility.
 
-```bash
-# Clone the repository
-git clone https://github.com/rony1duet/Bangladeshi-Student-Performance-Analysis.git
-cd Bangladeshi-Student-Performance-Analysis
+## Technical Architecture
 
-# Install dependencies
-pip install -r requirements.txt
+### Project Structure
 
-# Verify setup
-python setup.py
-python verify.py
-
-# Launch analysis
-jupyter notebook main.ipynb
+```text
+Bangladeshi-Student-Performance-Analysis/
+├── main.ipynb                       # Interactive analysis notebook
+├── data.csv                         # Primary dataset (8,612 records)
+├── modules/                         # Core analytics modules
+│   ├── visualizations.py            # Chart generation & custom analysis
+│   ├── data_filter.py               # Dynamic data filtering system
+│   ├── connections.py               # Correlation analysis tools
+│   └── utils.py                     # Utility functions
+├── Report/                          # Documentation & presentations
+│   ├── Technical_Documentation.pdf  # Project documentation
+│   ├── Presentation.pptx            # Project presentation slides
+│   └── Project_Proposal.pdf         # Project proposal document
+├── requirements.txt                 # Python dependencies
+├── setup.py                         # Project setup and validation
+├── demo.py                          # Quick demonstration script
+├── verify.py                        # Project verification tool
+└── README.md                        # Project documentation
 ```
 
-### 🎮 Usage Options
+### Core Functionality
 
-#### 🔥 Interactive Analysis (Recommended)
+#### Interactive Analysis System (main.ipynb)
+
+- **Menu-Driven Interface**: User-friendly navigation system
+- **Dynamic Filtering**: Real-time data filtering by location, gender, student group
+- **Custom Visualizations**: Interactive chart generation
+- **Connection Exploration**: Multi-variable relationship analysis
+
+#### Visualization Engine (modules/visualizations.py)
+
+- **Custom Analysis Options**:
+  - Internet Access vs Gender distribution
+  - Internet Access vs Extracurricular Activities
+  - Advanced correlation heatmaps
+  - Geographic performance patterns
+
+#### Data Processing (modules/data_filter.py & modules/utils.py)
+
+- **Smart Filtering**: Multi-criteria data selection
+- **User Input Handling**: Robust choice validation
+- **Data Integrity**: Automated data quality checks
+
+## Getting Started
+
+### Prerequisites
 
 ```python
-# Launch main.ipynb and follow the menu:
-# 1️⃣ Choose Analysis Type: Custom/All
-# 2️⃣ Filter by Location: Urban/Rural/City/All
-# 3️⃣ Filter by Gender: Male/Female/All
-# 4️⃣ Filter by Group: Science/Commerce/Humanities/All
-# 5️⃣ Filter by Internet: Yes/No/All
-# 6️⃣ Generate visualizations automatically
+# Required Dependencies
+pandas >= 1.3.0          # Data manipulation and analysis
+numpy >= 1.21.0          # Numerical computing
+matplotlib >= 3.4.0      # Basic plotting
+seaborn >= 0.11.0        # Statistical visualizations
+jupyter >= 1.0.0         # Interactive notebooks
 ```
 
-#### ⚡ Quick Demo
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/rony1duet/Bangladeshi-Student-Performance-Analysis.git
+   cd Bangladeshi-Student-Performance-Analysis
+   ```
+
+2. **Install Dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Verify Setup**
+
+   ```bash
+   python setup.py
+   python verify.py
+   ```
+
+4. **Launch Analysis Platform**
+
+   ```bash
+   jupyter notebook main.ipynb
+   ```
+
+### Usage Guide
+
+#### Option 1: Interactive Analysis (Recommended)
+
+```python
+# Launch the main notebook
+jupyter notebook main.ipynb
+
+# Follow the interactive menu:
+# 1. Choose "Custom Analysis" or "All Analysis"
+# 2. Filter by Location: Urban/Rural/City/All
+# 3. Filter by Gender: Male/Female/All  
+# 4. Filter by Student Group: Science/Commerce/Humanities/All
+# 5. Filter by Internet Access: Yes/No/All
+# 6. Generate visualizations automatically
+```
+
+#### Option 2: Quick Demo
 
 ```bash
 python demo.py
 ```
 
-#### 🔧 Direct Module Usage
+#### Option 3: Direct Module Usage
 
 ```python
-from modules.visualizations import plot_custom_analysis
-from modules.data_filter import filter_data
+# Import core modules
+from modules.visualizations import plot_custom_analysis, plot_grouped_averages
+from modules.data_filter import filter_data, filter_by_internet_access
 import pandas as pd
 
+# Load and analyze data
 data = pd.read_csv('data.csv')
 filtered_data = filter_data(data)
 plot_custom_analysis(filtered_data)
 ```
----
 
-## 📊 Dataset Overview
+## Analysis Capabilities
 
-Our comprehensive dataset includes **8,612 student records** with the following dimensions:
+### 1. Academic Performance Analysis
 
-### 📈 Academic Performance
+- **Subject-wise Comparison**: Performance across English, Math, Science, Social Science, ICT, Finance
+- **Stream Effectiveness**: Science vs Commerce vs Humanities academic outcomes
+- **Grade Distribution**: Statistical breakdown of student achievements
+- **Performance Correlation**: Relationship between different subjects
 
-- **Core Subjects**: English, Mathematics, Science, Social Science
-- **Specialized**: ICT, Finance
-- **Scale**: 0-100 for each subject
+### 2. Demographic Impact Studies
 
-### 👤 Demographics
+- **Geographic Analysis**: Urban vs Rural vs City performance comparison
+- **Gender Equity**: Male vs Female academic achievement patterns
+- **Age Distribution**: Age-related academic performance trends
+- **Family Influence**: Family size correlation with academic success
 
-- **Age Range**: 10-24 years
-- **Gender**: Male/Female distribution
-- **Location**: Urban/Rural/City classification
-- **Family Structure**: Size and composition
+### 3. Digital Divide Assessment
 
-### 🏫 Educational Context
+- **Internet Access Impact**: Correlation between internet availability and performance
+- **Technology Integration**: ICT subject performance analysis across demographics
+- **Digital Equity**: Geographic patterns in technology access
+- **Online Learning Readiness**: Assessment of digital preparedness
 
-- **School Types**: Government/Private/Semi-Government
-- **Academic Groups**: Science/Commerce/Humanities
-- **Support Systems**: Tutoring, parental involvement
-- **Resources**: Internet access, study time allocation
+### 4. Educational Environment Analysis
 
-### 🎯 Engagement Factors
+- **School Type Comparison**: Government vs Private vs Semi-Government effectiveness
+- **Support System Impact**: Tutoring and parental involvement effects
+- **Guardian Influence**: Different guardian types and their impact on performance
+- **Institutional Resources**: Resource availability across different school types
 
-- **Attendance**: Class participation rates
-- **Extracurricular**: Activity participation
-- **Study Habits**: Time management patterns
+### 5. Study Patterns & Engagement
 
----
+- **Study Time Optimization**: Hours spent studying vs performance outcomes
+- **Attendance Correlation**: Class attendance impact on academic achievement
+- **Extracurricular Benefits**: Activity participation vs academic success
+- **Engagement Metrics**: Overall student engagement assessment
 
-## 🏗️ Technical Architecture
+## Key Findings
 
-```
-📁 Bangladeshi-Student-Performance-Analysis/
-├── 📊 main.ipynb                    # Interactive analysis hub
-├── 📄 data.csv                      # Primary dataset (8,612 records)
-├── 📁 modules/                      # Core analytics engine
-│   ├── 🎨 visualizations.py         # Chart generation & analysis
-│   ├── 🔍 data_filter.py            # Dynamic filtering system
-│   ├── 🔗 connections.py            # Correlation analysis
-│   └── 🛠️ utils.py                 # Utility functions
-├── 📁 Report/                       # Documentation suite
-│   ├── 📋 Technical_Documentation.pdf
-│   ├── 🎯 Presentation.pptx
-│   └── 📝 Project_Proposal.pdf
-├── ⚙️ requirements.txt              # Dependencies
-├── 🚀 setup.py                     # Project setup
-├── 🎮 demo.py                      # Quick demo
-└── ✅ verify.py                    # Verification tool
-```
+### Internet Access and Extracurricular Activities
 
----
+- Students with internet access are more likely to participate in extracurricular activities (55%) compared to those without internet access (50%).
+- This demonstrates the digital divide's impact on holistic student development.
 
-## 🔍 Key Findings & Insights
+### Academic Performance by Group
 
-### 🌐 Digital Divide Impact
+**Science Group**: Excels in Math and Science with high overall scores, particularly in STEM subjects.
 
-> **📊 55%** of students with internet access participate in extracurricular activities  
-> **📊 50%** of students without internet access participate in activities
+**Commerce Group**: Strong performance in English and Finance, showing specialization effectiveness.
 
-**💡 Insight**: Digital access significantly influences holistic student development
+**Humanities Group**: Balanced performance in Social Science and English, with consistent cross-curricular skills.
 
-### 🎓 Academic Performance by Stream
+### Geographic Performance Patterns
 
-| 📚 Stream | 🌟 Strengths | 📈 Performance Pattern |
-|-----------|-------------|------------------------|
-| **🔬 Science** | Math & Science Excellence | High STEM performance |
-| **💼 Commerce** | English & Finance | Business specialization |
-| **📖 Humanities** | Social Science & English | Balanced cross-curricular |
+**Performance Hierarchy**: Urban > City > Rural (consistent across all subjects)
 
-### 📍 Geographic Performance Hierarchy
+- Urban students demonstrate superior performance across all academic subjects
+- Rural students face significant educational disadvantages
+- City students show intermediate performance levels
 
-```
-🏙️ Urban > 🌆 City > 🌾 Rural
-```
+### Age-Related Performance Trends
 
-**Performance Gap**: Consistent across all subjects, highlighting infrastructure disparities
+- **Optimal Performance Age**: 17-year-old students generally perform better than all other age groups
+- **Performance Decline**: Both younger (below 17) and older students (above 17) show decreased academic achievement
 
-### 🎯 Optimal Learning Age
+*Educational Implication*: This suggests optimal cognitive development and educational engagement during the 17-year age period.
 
-**📊 Peak Performance**: 17-year-old students demonstrate highest academic achievement
+### Class Attendance Impact
 
-**📉 Performance Decline**: Both younger (<17) and older (>17) students show decreased performance
+- Strong positive correlation between class attendance and academic performance
+- Younger students demonstrate better attendance patterns
+- Attendance rates directly correlate with subject-wise performance improvements
 
-### 📚 Attendance Correlation
+### Digital Divide Analysis
 
-**Strong Positive Correlation**: Class attendance directly impacts academic performance
+- **Internet Access Distribution**: Significant urban-rural disparity in internet availability
+- **Performance Impact**: Students with internet access consistently outperform their counterparts
+- **Subject-Specific Effects**: ICT performance shows the strongest correlation with internet access
 
-**Age Factor**: Younger students maintain better attendance patterns
+## Visual Data Highlights
 
----
+- **Internet Access and Extracurricular Participation**: Stacked bar charts demonstrate the digital divide's impact on holistic development
+- **Group Performance Trends**: Comprehensive bar graphs illustrate subject-wise performance across Science, Commerce, and Humanities groups
+- **Geographic Correlation Heatmaps**: Advanced visualizations showing multi-variable relationships between location, internet access, study time, and tutoring
 
-## 📈 Analysis Capabilities
+## Challenges Overcome
 
-### 🎯 Core Analytics
+**Challenge**: Data Imbalance Issues
 
-- **📊 Academic Performance Analysis**
-  - Subject-wise comparisons
-  - Stream effectiveness evaluation
-  - Grade distribution analysis
-  - Performance correlations
+- **Problem**: Fewer students without internet access, making statistical comparisons challenging
+- **Solution**: Implemented comprehensive data cleaning and validation protocols
 
-- **👥 Demographic Impact Studies**
-  - Geographic analysis (Urban/Rural/City)
-  - Gender equity assessment
-  - Age-related performance trends
-  - Family influence patterns
+**Challenge**: Creating user-friendly interface for complex analysis
 
-- **🌐 Digital Divide Assessment**
-  - Internet access impact analysis
-  - Technology integration evaluation
-  - Digital equity mapping
-  - Online learning readiness
+- **Problem**: Making advanced analytics accessible to non-technical users
+- **Solution**: Developed intuitive menu-driven interface with guided analysis options
 
-### 🔬 Advanced Features
+**Challenge**: Visualization Complexity
 
-- **🏫 Educational Environment Analysis**
-  - School type effectiveness
-  - Support system impact
-  - Guardian influence assessment
-  - Resource availability analysis
+- **Problem**: Combining multiple attributes into clear, interpretable graphs
+- **Solution**: Created modular visualization system with standardized chart aesthetics
 
-- **📚 Study Pattern Recognition**
-  - Study time optimization
-  - Attendance correlation analysis
-  - Extracurricular benefits evaluation
-  - Engagement metrics assessment
+## Learning Outcomes
 
----
+### Technical Skills Acquired
 
-## 🎨 Visualization Highlights
+**Data Science Proficiency**: Advanced expertise in Python data analysis ecosystem, including comprehensive use of pandas, numpy, matplotlib, and seaborn for statistical analysis and visualization.
 
-### 📊 Interactive Charts Available
+**Visualization Excellence**: Mastery of creating publication-ready charts, interactive dashboards, and meaningful data representations that effectively communicate complex patterns.
 
-- **🔥 Internet Access vs Extracurricular Participation**
-- **📈 Group Performance Trends** (Science/Commerce/Humanities)
-- **🗺️ Geographic Correlation Heatmaps**
-- **⏰ Age vs Performance Distribution**
-- **🎯 Attendance Impact Visualization**
+### Critical Thinking Enhancement
 
-### 🎯 Custom Analysis Options
+**Pattern Recognition**: Enhanced ability to identify significant trends and correlations within large datasets, developing insights that bridge academic theory with practical applications.
 
-```python
-# Available visualizations:
-✅ Internet Access vs Gender Distribution
-✅ Internet Access vs Extracurricular Activities  
-✅ Advanced Correlation Heatmaps
-✅ Geographic Performance Patterns
-✅ Subject-wise Performance Comparisons
-```
+**Research Integration**: Successfully integrated academic research methodologies with practical software development skills.
 
----
+### Research Methodology Skills
 
-## 🛠️ Technical Implementation
+**Statistical Analysis**: Comprehensive understanding of correlation studies, demographic comparisons, and data validation techniques.
 
-### 🔧 Core Technologies
+**Academic Writing**: Improved scientific communication skills through comprehensive documentation and report generation.
 
-| 🛠️ Technology | 🎯 Purpose | 📊 Usage |
-|---------------|-----------|----------|
-| **🐍 Python** | Core language | Data processing & analysis |
-| **🐼 Pandas** | Data manipulation | Dataset handling & filtering |
-| **🔢 NumPy** | Numerical computing | Statistical calculations |
-| **📊 Matplotlib** | Basic plotting | Chart generation |
-| **🎨 Seaborn** | Statistical visualization | Advanced graphics |
-| **📓 Jupyter** | Interactive environment | Analysis notebooks |
+## Future Improvements
 
-### 🚀 Performance Features
+### Immediate Enhancements
 
-- **⚡ Efficient Data Processing**: Optimized pandas operations
-- **🎯 Smart Filtering**: Multi-criteria data selection
-- **🔍 Interactive Exploration**: Menu-driven analysis
-- **📊 Real-time Visualization**: Dynamic chart generation
-- **✅ Data Validation**: Automated quality checks
+**Interactive Dashboard Development**: Create web-based dashboard for real-time analysis and broader accessibility.
+
+**Predictive Modeling**: Implement machine learning algorithms to forecast student performance based on identified factors.
+
+**Extended Data Collection**: Gather additional regional data to explore cross-district educational variations.
+
+### Long-term Research Goals
+
+**Cross-Cultural Comparative Analysis**: Expand research to include comparative studies with other South Asian educational systems.
+
+**Policy Impact Evaluation**: Develop frameworks for measuring the effectiveness of educational policy interventions.
+
+**Longitudinal Studies**: Establish long-term tracking mechanisms to monitor student progress over multiple academic years.
+
+## Contributing
+
+This project welcomes contributions from educators, researchers, and data scientists interested in educational analytics. Please review our contribution guidelines and feel free to submit issues or pull requests.
+
+### Development Guidelines
+
+- Follow PEP 8 Python coding standards
+- Include comprehensive documentation for new features
+- Add unit tests for new analytical functions
+- Update README.md for significant changes
+
+### Resources
+
+- [Project Documentation](./Report/Technical_Documentation.pdf)
+- [Analysis Presentation](./Report/Presentation.pptx)
+- [GitHub Repository](https://github.com/rony1duet/Bangladeshi-Student-Performance-Analysis)
+
+## License
+
+This project is developed for academic purposes under the supervision of Dhaka University of Engineering & Technology (DUET). All rights reserved for educational and research use.
+
+## Acknowledgments
+
+We express our gratitude to the faculty of the Department of Computer Science and Engineering at Dhaka University of Engineering & Technology, Gazipur. Special thanks to Dr. Md. Shafiqul Islam and Md. Rajibul Islam for their invaluable support and guidance throughout this project.
+
+We also acknowledge the broader educational research community and the open-source Python ecosystem that made this analysis possible.
 
 ---
 
-## 🎯 Learning Outcomes
+**Contact Information**
 
-### 💻 Technical Skills Mastered
+For questions, collaboration opportunities, or academic inquiries, please contact the research team through the provided email addresses or visit our institution's website.
 
-- **🐍 Advanced Python Proficiency**: Complete data science ecosystem
-- **📊 Statistical Analysis Expertise**: Correlation studies & demographic analysis
-- **🎨 Visualization Excellence**: Publication-ready charts & dashboards
-- **🔬 Research Methodology**: Systematic analytical approaches
-- **🏗️ System Architecture**: Modular, scalable analytics design
-
-### 🧠 Critical Thinking Development
-
-- **🔍 Pattern Recognition**: Complex data trend identification
-- **💡 Insight Generation**: Data-driven recommendation development
-- **📋 Academic Integration**: Theory-practice bridge building
-- **📝 Scientific Communication**: Technical documentation skills
-
----
-
-## 🚧 Challenges Overcome
-
-### 🎯 Data Quality Issues
-
-**Challenge**: Imbalanced dataset with fewer non-internet users  
-**Solution**: Comprehensive data cleaning & validation protocols
-
-### 🎮 User Experience Design
-
-**Challenge**: Making complex analytics accessible  
-**Solution**: Intuitive menu-driven interface with guided options
-
-### 📊 Visualization Complexity
-
-**Challenge**: Multi-attribute graph clarity  
-**Solution**: Modular visualization system with standardized aesthetics
-
----
-
-## 🔮 Future Roadmap
-
-### 🚀 Immediate Enhancements
-
-- **🌐 Web Dashboard**: Interactive web-based analytics platform
-- **🤖 Predictive Modeling**: ML algorithms for performance forecasting
-- **📈 Extended Data**: Cross-district educational variations
-- **📱 Mobile Interface**: Responsive design for mobile access
-
-### 🎯 Long-term Vision
-
-- **🌏 Cross-Cultural Analysis**: South Asian educational comparisons
-- **📊 Policy Impact Evaluation**: Educational intervention effectiveness
-- **📈 Longitudinal Studies**: Multi-year student progress tracking
-- **🤝 Community Integration**: Stakeholder collaboration platform
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from educators, researchers, and data scientists! 
-
-### 📋 Contribution Guidelines
-
-- **✅ Code Standards**: Follow PEP 8 Python conventions
-- **📝 Documentation**: Comprehensive feature documentation
-- **🧪 Testing**: Unit tests for analytical functions
-- **📊 Updates**: README updates for significant changes
-
-### 🔗 Resources
-
-- 📋 [Technical Documentation](./Report/Technical_Documentation.pdf)
-- 🎯 [Project Presentation](./Report/Presentation.pptx)
-- 📁 [GitHub Repository](https://github.com/rony1duet/Bangladeshi-Student-Performance-Analysis)
-
----
-
-## 📄 License
-
-**🎓 Academic Use License**
-
-This project is developed for educational purposes under the supervision of Dhaka University of Engineering & Technology (DUET). All rights reserved for educational and research use.
-
----
-
-## 🙏 Acknowledgments
-
-### 🎓 Academic Support
-
-Special gratitude to the **Department of Computer Science and Engineering** at **DUET, Gazipur**:
-
-- **Dr. Md. Shafiqul Islam** - Primary Supervisor
-- **Md. Rajibul Islam** - Co-Supervisor
-
-### 🌟 Community Recognition
-
-- 🐍 **Python Community** - Open-source ecosystem
-- 📊 **Data Science Community** - Analytical methodologies
-- 🎓 **Educational Research Community** - Domain expertise
-- 🇧🇩 **Bangladesh Education Sector** - Data insights opportunity
-
----
-
-## 📞 Contact & Collaboration
-
-### 🎯 Research Inquiries
-
-For academic collaboration, research questions, or educational policy discussions:
-
-📧 **Primary Contact**: 2204045@student.duet.ac.bd  
-🏛️ **Institution**: Dhaka University of Engineering & Technology  
-📍 **Location**: Gazipur, Bangladesh
-
-### 🚀 Project Links
-
-- 📊 [**Live Analysis**](main.ipynb)
-- 📁 [**Source Code**](https://github.com/rony1duet/Bangladeshi-Student-Performance-Analysis)
-- 📋 [**Documentation**](Report/Technical_Documentation.pdf)
-- 🎯 [**Presentation**](Report/Presentation.pptx)
-
----
-
-**🎓 Empowering educators, policymakers, and researchers with data-driven insights**
-
-*Transforming educational analysis through innovative data science approaches*
-
-![Footer](https://img.shields.io/badge/Made%20with-❤️%20&%20🐍-red?style=for-the-badge)
-![Bangladesh](https://img.shields.io/badge/Made%20in-🇧🇩%20Bangladesh-green?style=for-the-badge)
+*Empowering educators, policymakers, and researchers with comprehensive insights into student performance patterns and educational equity in Bangladesh.*
