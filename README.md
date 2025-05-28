@@ -137,16 +137,10 @@ jupyter >= 1.0.0         # Interactive notebooks
 2. **Install Dependencies**
 
    ```bash
-   pip install -r requirements.txt
+   pip install pandas numpy matplotlib seaborn jupyter
    ```
 
-3. **Validate Setup**
-
-   ```bash
-   python setup.py
-   ```
-
-4. **Launch Analysis Platform**
+3. **Launch Analysis Platform**
 
    ```bash
    jupyter notebook main.ipynb
